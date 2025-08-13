@@ -3,7 +3,7 @@
 void setup()
 {
   pinMode(2, OUTPUT);
-  pinMode(3, INPUT);
+  pinMode(9, INPUT);
 }
 
 void loop()
@@ -15,4 +15,5 @@ void loop()
  else {
   digitalWrite(2, LOW);
 }
+
 }
